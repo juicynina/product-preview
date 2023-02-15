@@ -49,6 +49,10 @@ body {
     border-top-right-radius: 12px;
 }
 
+.banner-img-desktop {
+    display: none;
+}
+
 .product-view-container h2 {
     font-family: fraunces;
     font-size: 36px;
@@ -141,6 +145,14 @@ body {
         max-width:100%;
         max-height:100%;
     }
+
+    .banner-img-desktop {
+        display: block;
+  }
+  
+  .banner-img-mobile {
+         display: none;
+  }
     .product-info {
         background-color: var(--white);
         padding: 20px;
